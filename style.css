@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px 250px;
+    padding: 25px 300px;
     gap: 10px;
 }
 .head_elements>img{
@@ -54,4 +54,91 @@
     text-align: center;
     font-weight: 700;
     border-radius: 10px;
+}
+
+/*Starting of Page 2 style*/
+.page2{
+    margin: 50px 120px ;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 100px 0px;
+}
+.page2elements{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.page2elements>h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.page2elements>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.page2Portions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p2portion1 ,.p2portion2, .p2portion3{
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    height: 350px;
+}
+.page2Image{
+    width: 280px;
+    height: 237px;
+}
+
+.portionText>h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.portionText>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.portionText>button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 12px;
+    letter-spacing: 0%;
+    text-align: center;
+    height: 50px;
+
 }
