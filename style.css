@@ -5,6 +5,35 @@
     font-weight: 80;
     font-style: normal;
 }
+p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%; 
+}
+h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/*The first page*/
 
 .initial_portion{
     height: 150px;
@@ -37,12 +66,6 @@
     letter-spacing: 0%;
 }
 .head_elements>p{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
 }
 .head_elements>button{
@@ -55,10 +78,20 @@
     font-weight: 700;
     border-radius: 10px;
 }
+h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+}
 
-/*Starting of Page 2 style*/
+/* Page 2 style*/
 .page2{
-    margin: 50px 120px ;
+    margin: 50px 100px ;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     padding: 100px 0px;
@@ -73,22 +106,7 @@
     align-items: center;
     gap: 50px;
 }
-.page2elements>h2{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 37px;
-    letter-spacing: 0%;
-    text-align: center;
-}
 .page2elements>p{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
 }
 .page2Portions{
@@ -112,24 +130,7 @@
     width: 280px;
     height: 237px;
 }
-
-.portionText>h3{
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 40px;
-}
 .portionText>p{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
     text-align: left;
     margin-bottom: 40px;
 }
@@ -146,7 +147,9 @@
     text-align: center;
     height: 50px;
 }
-/* Starting of Page 3*/
+
+/* Style of Page 3*/
+
 .page3Text{
     display: flex;
     flex-direction: column;
@@ -154,28 +157,11 @@
     align-items: center;
     margin: 0 auto;
     padding: 40px 350px;
-}
-.page3Text>h2{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 37px;
-    letter-spacing: 0%;
-    text-align: center;
-}
-.page3Text>p{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
 }
 .page3Video{
     height: 614px;
-    width: 1140px;
+    width: 1120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,5 +169,44 @@
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+}
 
+/*Style of Page 4 containing my target*/
+#myTarget{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 300px;
+}
+#myTarget>p{
+    text-align: center;
+}
+.lang{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.langDetails{
+    padding: 25px;
+}
+.langDetails>h3{
+    color: rgb(13, 19, 33);
+}
+#htmlSec{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 30%;
+}
+#cssSec{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 30%;
+}
+#jsSec{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    width: 30%;
 }
